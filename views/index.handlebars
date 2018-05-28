@@ -1,0 +1,52 @@
+<h1>Burger Me!</h1>
+
+
+
+
+<div id="create-da-burger">
+<h2>What kind of burger would you like?</h2>
+<img src="assets/img/burger.png" id="main-burger-logo" alt="burger">
+<form class="create-form">
+
+  <div class="form-group">
+    <label for="ca">Burger Name:</label>
+    <input type="text" id="ca" name="name" placeholder="i.e. Shake Shack Burger">
+  </div>
+
+  <div class="form-group">
+    <label for="ready">Is the food ready yet?</label><br>
+    <input type="radio" name="ready" value="1" checked> Ready!<br>
+    <input type="radio" name="ready" value="0"> Not ready yet!
+  </div>
+
+  <button type="submit" class="buttons" id="order-button">Order Burger</button>
+</form>
+</div>
+
+<div id="container">
+
+<div id="column-1">
+  <h2>On the Order Ticket!</h2>
+<ul>
+  {{#each burgers}}
+    {{#unless ready}}
+      {{> burgers/burger-block ready=true}}
+    {{/unless}}
+  {{/each}}
+</ul>
+</div>
+
+
+<div id="column-2">
+  <h2>Ready to Eat</h2>
+<ul>
+  {{#each burgers}}
+    {{#if ready}}
+      {{> burgers/burger-block ready=false}}
+    {{/if}}
+  {{/each}}
+</ul>
+</div>
+
+</div>
+

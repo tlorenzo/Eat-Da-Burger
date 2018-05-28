@@ -1,0 +1,30 @@
+{
+  "name": "eat-da-burger",
+  "version": "1.0.0",
+  "description": "Create a string and store it in the server.  Push that string to the left side of the window.  Clicking a button transfers that string from the left side of the window to the right side.",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tlorenzo/Eat-Da-Burger.git"
+  },
+  "keywords": [
+    "burger"
+  ],
+  "author": "Tony",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tlorenzo/Eat-Da-Burger/issues"
+  },
+  "homepage": "https://github.com/tlorenzo/Eat-Da-Burger#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.15.0",
+    "path": "^0.12.7"
+  }
+}

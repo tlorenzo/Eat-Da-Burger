@@ -1,0 +1,9 @@
+<li>
+	{{name}}
+
+	<button class="change-ready buttons" data-id="{{id}}" data-newready="{{ready}}">
+		{{#if ready}}Cook the Burger{{else}}Eat the Burger{{/if}}
+	</button>
+
+	<button class="delete-burger buttons" data-id="{{this.id}}">Remove</button>
+</li>

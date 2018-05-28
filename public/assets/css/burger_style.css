@@ -1,0 +1,133 @@
+body {
+  background-color:#14A9C4;
+}
+
+#main-burger-logo {
+  width:300px;
+  float: right;
+
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100px;
+  font-weight: 700;
+  color: #9E3A64;
+  
+  
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  font-style: italic;
+  /* background-color: #3E5EED; */
+  color: #993861;
+
+}
+li {
+    padding: 7px;
+    margin: 7px;
+    background: #E8F5FC;
+    height: 35px;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .create-update-form {
+    padding: 5px;
+    margin: 5px;
+    background: aqua;
+  }
+  
+  /* .form-group {
+    margin-bottom: 5px;
+  } */
+  
+  .form-group {
+    position: relative;
+    top: 10px;
+  }
+
+  #column-1 {
+    width:48%;
+    float: left;
+    
+  }
+
+  #column-2 {
+    width:48%;
+    float: right; 
+  }
+
+  #column-1, #column-2 {
+    /* display: inline-block; */
+    background-color: #17B5E8;
+    margin-left: 20px;
+    border-radius: 15px;
+    
+  }
+
+
+  ul {
+    list-style-type: none;
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+  }
+
+  #create-da-burger {
+    position: relative;
+    top: 0px;
+    width: 93%;
+    height: 375px;
+    margin: 0 auto 0 auto;
+    background-color: #17B5E8;
+    border-radius: 10px;
+    
+  }
+
+  #container {
+    width:95%;
+    margin: 0 auto 0 auto;
+
+    margin-top: 20px;
+  }
+
+  #ca {
+    height: 60px;
+    width: 72%;
+    /* border-radius: 10px; */
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 36px;
+    margin: 10px;
+  }
+
+  .form-group {
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-left: 15px;
+    
+
+  }
+  input {
+    margin-left: 45px;
+    margin-left: 10px; 
+  }
+  
+  .buttons {
+    padding: 8px;
+    margin: 1px;
+    float: right; 
+  }
+
+  #order-button {
+    padding: 20px;
+    font-size: 28px;
+    background-color: #DE518D;
+    
+  }
